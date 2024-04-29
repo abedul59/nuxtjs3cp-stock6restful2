@@ -1,7 +1,19 @@
 <script setup>
-//import Stock6Sign2403 from '../components/Stock6Sign2403.vue'
+
 </script>
 <template>
-  <NuxtPage />
+  <div>
+  <header>
+    <ul>
+      <li><NuxtLink to="/">Home</NuxtLink></li>
+      <li><NuxtLink to="/Stock6Sign2403">Stock6Sign2403</NuxtLink></li>
+      <li><NuxtLink to="/Stock6Sign2403djm">Stock6Sign2403djm</NuxtLink></li>
+    </ul>
 
+  </header>
+  <NuxtLayout>
+    <NuxtPage></NuxtPage>
+
+  </NuxtLayout>
+</div>
 </template>
