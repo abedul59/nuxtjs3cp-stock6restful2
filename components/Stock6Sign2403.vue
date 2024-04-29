@@ -78,8 +78,9 @@ function handleSubmit() {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-center {
-    text-align: center;
-}
 
+.center {
+  display: flex;
+  justify-content: center;
+}
 </style>
