@@ -46,7 +46,7 @@ function handleSubmit() {
 </script>
 
 <template>
-  <div class="hello">
+  <div class="center">
     <input type="text" v-model="inputText2" placeholder="請輸入台股代號" />
     <button @click="handleSubmit">Submit</button>
     <div v-if="result2">
@@ -72,3 +72,14 @@ function handleSubmit() {
   <br />
   <stock-s6gn v-bind="tStock6data2"></stock-s6gn>
 </template>
+
+
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+
+center {
+    text-align: center;
+}
+
+</style>
