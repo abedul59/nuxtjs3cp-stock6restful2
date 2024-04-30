@@ -2,16 +2,7 @@
 
 </script>
 <template>
-    <div class="greetings">
-      <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfullly come to 總幹事六大指標 選股系統服務！
-      <br />
-      Visit the following websites to get more Info!
-      <a href="https://shopee.tw/abedul59" target="_blank" rel="noopener">Shopee</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Ruten</a>.
-    </h3>
-  </div>
+<HelloWorld msg="Welcome here!" />
   <br>
   <div class="center">
   <header>

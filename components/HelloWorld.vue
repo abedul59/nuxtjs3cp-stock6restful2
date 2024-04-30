@@ -15,7 +15,7 @@ defineProps({
       <br />
       Visit the following websites to get more Info!
       <a href="https://shopee.tw/abedul59" target="_blank" rel="noopener">Shopee</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Ruten</a>.
+      <a href="https://www.ruten.com.tw/store/abedul59/" target="_blank" rel="noopener">Ruten</a>.
     </h3>
   </div>
 </template>
