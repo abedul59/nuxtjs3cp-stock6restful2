@@ -1,11 +1,11 @@
 <script setup>
-import TotalScore from './TotalScore.vue'
-import StockS1gn from './StockS1gn.vue'
-import StockS2gn from './StockS2gn.vue'
-import StockS3gn from './StockS3gn.vue'
-import StockS4gn from './StockS4gn.vue'
-import StockS5gn from './StockS5gn.vue'
-import StockS6gn from './StockS6gn.vue'
+import TotalScore from '../components/TotalScore.vue'
+import StockS1gn from '../components/StockS1gn.vue'
+import StockS2gn from '../components/StockS2gn.vue'
+import StockS3gn from '../components/StockS3gn.vue'
+import StockS4gn from '../components/StockS4gn.vue'
+import StockS5gn from '../components/StockS5gn.vue'
+import StockS6gn from '../components/StockS6gn.vue'
 import { ref } from 'vue'
 
 const inputText2 = ref('')
@@ -44,7 +44,7 @@ function handleSubmit() {
 </script>
 
 <template>
-  <div class="hello">
+  <div class="center">
     <input type="text" v-model="inputText2" placeholder="請輸入台股代號" />
     <button @click="handleSubmit">Submit</button>
     <div v-if="result2">
@@ -70,3 +70,12 @@ function handleSubmit() {
   <br />
   <stock-s6gn v-bind="tStock6data2"></stock-s6gn>
 </template>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+
+.center {
+    text-align: center;
+}
+
+</style>
