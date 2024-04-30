@@ -2,10 +2,13 @@
 
 </script>
 <template>
-<HelloWorld msg="Welcome here!" />
-  <br>
   <div class="center">
+<HelloWorld msg="Welcome here!" />
+</div>
+  <br>
+
   <header>
+    <div class="center">
     <ul>
       <li><NuxtLink to="/">Home</NuxtLink></li>
       <li><NuxtLink to="/Stock6Sign2403">Stock6Sign2403</NuxtLink></li>
@@ -14,13 +17,14 @@
       <li><NuxtLink to="/Stock6Sign2403go">Stock6Sign2403go</NuxtLink></li>
       <li><NuxtLink to="/Stock6Sign2403fm">Stock6Sign2403fm</NuxtLink></li>
     </ul>
-
+  </div>
   </header>
+  
   <NuxtLayout>
     <NuxtPage></NuxtPage>
 
   </NuxtLayout>
-</div>
+
 </template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
